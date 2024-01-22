@@ -1,2 +1,2 @@
 # IFE-Projects
-Projects from Intro to Financial Engg. Course.
+Projects from Introduction to Financial Engineering (MAL4330) Course
