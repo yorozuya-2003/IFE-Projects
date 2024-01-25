@@ -11,6 +11,7 @@ The project focuses on implementing technical analysis in financial engineering.
 | Predictions_TechnicalAnalysis.csv | CSV file containing the predicted bullish and bearish positions. |
 | Report_TechnicalAnalysis.pdf   | PDF file containing the project report.          |
 | Presentation_TechnicalAnalysis.pdf | PDF file containing the project presentation.  |
+| GOOGL.csv | CSV file containing the Alphabet Inc Class A (GOOGL) stock data. |
 
 ## Asset Selection
 The chosen asset for the project is Alphabet Inc Class A (GOOGL) stock data. The closing price dataset over the last three years was obtained from Yahoo Finance.
