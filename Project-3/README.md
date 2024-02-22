@@ -44,16 +44,18 @@ CAPM calculates the expected rate of return for an asset or investment using the
 - μm: Expected return of market
 
 ### CAPM Expected Returns (Risky Assets)
-- Microsoft: 0.027500
-- JPMorgan: 0.056402
-- Walmart: 0.036176
-- Salesforce: 0.024740
-- McDonald's: 0.029928
-- Amazon: 0.029128
-- NVIDIA: 0.027721
-- Caterpillar: 0.057252
-- CocaCola: 0.038329
-- Google: 0.005993
+| Asset          | Expected Return |
+|----------------|-----------------|
+| Microsoft      | 0.027500        |
+| JPMorgan       | 0.056402        |
+| Walmart        | 0.036176        |
+| Salesforce     | 0.024740        |
+| McDonald's     | 0.029928        |
+| Amazon         | 0.029128        |
+| NVIDIA         | 0.027721        |
+| Caterpillar    | 0.057252        |
+| CocaCola       | 0.038329        |
+| Google         | 0.005993        |
 
 ### Capital Market Line (CML)
 The CML represents the optimal portfolio of risky assets. It touches the efficient frontier at the tangency point, indicating the highest Sharpe ratio.
@@ -61,11 +63,29 @@ The CML represents the optimal portfolio of risky assets. It touches the efficie
 ### Security Market Line (SML)
 The SML is a graphical representation of CAPM, helping to determine if an investment offers a favorable expected return compared to its risk.
 
-## Markowitz Portfolio Optimization
-Efficient Frontier and Capital Market Line were utilized for optimal portfolio construction.
+## Optimized Portfolio Asset Weights
+| Asset              | Weight          |
+|--------------------|-----------------|
+| Microsoft          | 0               |
+| JPMorgan           | 0.176           |
+| Walmart            | 0.106           |
+| Salesforce         | 0.018           |
+| McDonald's         | 0               |
+| Amazon             | 0               |
+| NVIDIA             | 0.062           |
+| Caterpillar        | 0.004           |
+| CocaCola           | 0               |
+| Google             | 0               |
+| Risk Free Asset    | 0.633           |
+
+## Portfolio Performance Evaluation
+The Sharpe Ratio is used to evaluate the risk-adjusted performance of the optimized portfolio.
 
 ## Comparing MPO and CAPM
-Risk for the same desired return was compared between Markowitz Portfolio Optimization and Capital Asset Pricing Model.
+Comparisons between Markowitz Portfolio Optimization and Capital Asset Pricing Model are made to understand risk and return trade-offs.
+
+## Conclusion
+The project concludes by highlighting the suitability of CAPM for risk-averse investors prioritizing stability and Markowitz Portfolio Optimization for investors seeking short-term gains. Both models are valuable in portfolio management, and investors should choose based on their preferences, financial goals, and risk tolerance.
 
 ## References
 - [Capital Asset Pricing Model (CAPM)](https://www.investopedia.com/terms/c/capm.asp)
