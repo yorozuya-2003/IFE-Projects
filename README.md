@@ -5,6 +5,9 @@ Projects from Introduction to Financial Engineering (MAL4330) Course
 | Project | Topic |
 | --- | ----- |
 | [Project-1](./Project-1) | Technical Analysis |
+| [Project-2](./Project-2) | Markowitz Portfolio Optimization |
+| [Project-3](./Project-3) | Capital Asset Pricing Model |
+| [Project-4](./Project-4) | Option Pricing |
 
 
 ## Authors
